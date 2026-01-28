@@ -5,6 +5,8 @@ import {
   writeFile,
 } from '../helpers/file-helpers';
 
+export const dynamic = 'force-dynamic';
+
 const DATABASE_PATH = '/src/database.json';
 
 function Home() {
