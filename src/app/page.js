@@ -7,6 +7,8 @@ import {
 
 export const dynamic = 'force-dynamic';
 
+// this won't work in production because the file will be read-only,
+// even after explicitly adding the file path to outputFileTracingIncludes in next.config.js
 const DATABASE_PATH = '/src/database.json';
 
 function Home() {
